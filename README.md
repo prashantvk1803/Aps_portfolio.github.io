@@ -12,9 +12,6 @@
 </dl>
 * * *
 
-> A step towards better e-commerce management
->
-> PH
 
 #### Note:
 This page hosts:
