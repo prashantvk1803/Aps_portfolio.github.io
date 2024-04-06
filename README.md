@@ -1,5 +1,3 @@
-# LinkedIn
-
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
@@ -10,7 +8,9 @@
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
+
 * * *
+
 
 
 #### Note:
