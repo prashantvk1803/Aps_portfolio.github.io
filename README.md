@@ -9,8 +9,6 @@
 - **Name:** Prashant V Konaraddi
 - **University:** KLE Technological University, Hubballi-31
 
-
-
 #### Note:
 This page hosts:
 
@@ -20,7 +18,5 @@ This page hosts:
 4. Design
 5. Challenges
 6. To-Do
-
-
 
 * * *
