@@ -1,20 +1,13 @@
-# APS Portfolio
-## LinkedIn
+# Algorithmic Problem Solving Portfolio
 
-* * *
+![Header Image](apple.jpeg)
 
-<dl>
-<dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
-<dt>Course Code</dt>
-<dd>23ECSE309</dd>
-<dt>Name</dt>
-<dd>Prashant V Konaraddi</dd>
-<dt>University</dt>
-<dd>KLE Technological University, Hubballi-31</dd>
-</dl>
+## 📘 Course Information
 
-* * *
+- **Course Name:** Algorithmic Problem Solving
+- **Course Code:** 23ECSE309
+- **Name:** Prashant V Konaraddi
+- **University:** KLE Technological University, Hubballi-31
 
 
 
