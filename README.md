@@ -1,6 +1,6 @@
 # Algorithmic Problem Solving Portfolio
 
-![Header Image](apple.jpeg){:width="600px"}
+![Header Image](appleM.jpg)
 
 ## 📘 Course Information
 
