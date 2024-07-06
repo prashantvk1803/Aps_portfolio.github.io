@@ -1,4 +1,4 @@
-# Apple Music Portfolio
+# Music Streaming Application
 
 ![Header Image](appleM.jpg)
 
