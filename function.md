@@ -135,7 +135,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 
 ### 3. **Playlist Management**
 
-#### Earlier Approach: Heaps
+#### Initial Approach: Heaps
 
 **Implementation:**
 
@@ -177,7 +177,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 
 ### 4. **History of Songs**
 
-#### Earlier Approach: Stack
+#### Initial Approach: Stack
 
 **Implementation:**
 
