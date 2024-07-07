@@ -54,7 +54,7 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
 
 - **Segment Trees:** Allow efficient handling of range queries and updates.
   
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/segment.jpg" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/segment.jpg" style="float: left; width: 200px; height: 300px; margin-right: 10px; margin-left: 20px;"/> 
 - **Fenwick Trees:** Efficiently manage cumulative frequency tables, allowing for quick updates and prefix sum queries.
   
   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/fenwick.jpg" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
