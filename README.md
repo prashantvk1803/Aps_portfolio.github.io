@@ -23,6 +23,6 @@
 #### This page hosts:-
 
 1. [Introduction](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/index.md)
-2. [Why Portfolio](#why-portfolio)
+2. [Why Portfolio](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/whyportfolio.md)
 3. [Analysis and Code Examples](#analysis-and-code-examples)
 4. [References](#references)
