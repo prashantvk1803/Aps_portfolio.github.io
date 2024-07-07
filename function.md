@@ -114,6 +114,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
   - **Scalability:** Handles varying loads effectively, suitable for large-scale streaming.
 
 **Sliding Window**
+
 <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/slidingWin.png"/> 
 
 
