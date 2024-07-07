@@ -63,7 +63,7 @@ This page hosts:
   • Integration with social media for sharing and discovery
   • Offline listening capabilities
   • Use of blockchain for artist royalties and transparent transactions
-  • Effective digital marketing   
+  • Effective digital marketing  
 
 * **Market Projection**:
    The music streaming market is projected to reach a substantial market size, driven by innovation and consumer demand for seamless access to music.
