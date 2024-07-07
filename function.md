@@ -57,8 +57,10 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
 
 **Implementation:**
 
-1. **Segment Tree Construction:** Build a segment tree from the like/dislike counts array.[Segment Tree Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/segment_tree.cpp)
-2. **Fenwick Tree Construction:** Build a Fenwick tree from the like/dislike counts array.[Fenwick Tree Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/fenwick.cpp)
+1. **Segment Tree Construction:** Build a segment tree from the like/dislike counts array.
+- [Segment Tree Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/segment_tree.cpp)
+2. **Fenwick Tree Construction:** Build a Fenwick tree from the like/dislike counts array.
+- [Fenwick Tree Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/fenwick.cpp)
 3. **Update Operation:** 
    - Update the like/dislike count in the segment tree.
    - Update the like/dislike count in the Fenwick tree.
@@ -98,7 +100,9 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 
 - **Implementation:**
   - **Min-Heap for Playback:** Prioritizes packets based on playback time to ensure smooth playback.
+  - [Min-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/minheap.cpp)
   - **Max-Heap for Live Streaming:** Prioritizes high-priority packets (e.g., keyframes) to maintain stream integrity.
+  - [Max-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/maxheap.cpp)
 
 - **Advantages:**
   - **Efficiency:** Minimizes latency by prioritizing packets based on importance.
