@@ -10,7 +10,8 @@ In music streaming applications, delivering seamless playback and efficient live
 #### 3. **Playlist Management**: 
 In music streaming applications, managing playlists efficiently is crucial for enhancing user experience. Playlist management involves adding, removing, and reordering songs within a playlist. This requires data structures that support fast insertions, deletions, and access operations to ensure that users can modify and interact with their playlists seamlessly.
         
-#### 4. **History of Songs**
+#### 4. **History of Songs**:
+In music streaming applications, maintaining a history of recently played songs is essential for providing a personalized and convenient user experience. Users often revisit their recently played tracks, and caching this history enables quick access and efficient retrieval.
 
 #### 5. **Content Delivery Optimization**
    
@@ -174,5 +175,46 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
   - Search: `O(log n)`
 - **Space Complexity:** `O(n)`
 
+### 4. **History of Songs**
 
-In the context of playlist management, the limitations of heaps for arbitrary insertions and deletions make them less suitable for dynamic playlist operations. Red-black trees, on the other hand, offer a more flexible and efficient solution. By supporting fast insertions, deletions, and searches, red-black trees provide a robust framework for managing playlists, ensuring that users can interact with their playlists in real-time with minimal latency. This optimization enhances the overall user experience by allowing seamless modifications and efficient access to playlist contents.
+#### Initial Approach: Simple List
+
+**Implementation:**
+
+- **Simple List:** Initially used to store the history of recently played songs. Songs were appended to the end of the list as they were played.
+
+#### Drawbacks of Simple List
+
+- **Efficiency:** As the list grows, searching for a song or managing the list (e.g., removing the oldest song) becomes inefficient.
+- **Fixed Size Handling:** Managing a fixed-size history list (e.g., only keeping the last 100 songs) requires additional logic to remove the oldest entry once the limit is reached, which can be inefficient in a simple list.
+
+#### Optimized Approaches: LRU Cache
+
+**Implementation:**
+
+- **LRU Cache (Least Recently Used):** Efficiently manages a fixed-size cache by tracking the order of use. It removes the least recently used item when the cache reaches its limit.
+
+- **Advantages:**
+  - **Efficiency:** Provides O(1) operations for both accessing and updating the cache, ensuring quick access to recently played songs.
+  - **Automatic Eviction:** Automatically handles eviction of the oldest items, maintaining the cache size without additional logic.
+  - **Quick Access:** Enhances user experience by keeping recently used items readily accessible.
+
+#### Complexity Analysis
+
+**Simple List**
+
+- **Time Complexity:**
+  - Accessing a Song: O(n)
+  - Adding a Song: O(1)
+  - Removing Oldest Song: O(n)
+- **Space Complexity:** O(n)
+
+**LRU Cache**
+
+- **Time Complexity:**
+  - Accessing a Song: O(1)
+  - Adding a Song: O(1)
+  - Removing Oldest Song: O(1)
+- **Space Complexity:** O(n)
+
+Using a simple list for managing recently played songs is inefficient due to its linear access and removal times. An LRU cache improves efficiency with constant time complexity for both operations, enhancing user experience in music streaming apps.
