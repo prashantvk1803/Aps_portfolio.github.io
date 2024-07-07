@@ -2,7 +2,8 @@
 
 ## Functionalities Identified:
 
-#### 1. **Most liked/disliked song**
+#### 1. **Most liked/disliked song**:
+n a music streaming application, a like/dislike system is essential for personalizing recommendations, understanding user preferences, and determining song popularity. Efficiently managing and querying like/dislike counts is critical for maintaining a responsive user experience.
  
 #### 2. **Music Playback and Live Radio Streaming** : 
 In music streaming applications, delivering seamless playback and efficient live radio streaming is essential for retaining users and providing a superior user experience. This involves handling large volumes of audio data, ensuring minimal latency, and adapting to varying network conditions without compromising audio quality or playback continuity.
@@ -28,7 +29,8 @@ Efficiently indexing and retrieving music files from the database is crucial for
 #### 9. **Shuffling of Songs**:
 The shuffling feature in music streaming applications is essential for providing a randomized and fresh listening experience. Users often prefer a shuffled playlist to avoid predictability and enjoy a varied sequence of songs. Implementing an efficient shuffling algorithm ensures that the playlist is truly randomized, offering a unique order every time the shuffle feature is used.
 
-#### 10. **Payment for Subscription**:
+#### 10. **Sorting Songs Alphabetically**:
+In a music streaming application, users often want to sort their songs alphabetically by title, artist, or album. Efficient sorting algorithms ensure that users experience fast and responsive interactions, especially with large playlists.
 
 
 ## Analysis and Code
@@ -112,7 +114,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
   - **Adaptability:** Optimizes network bandwidth usage, improving responsiveness and reducing buffering times.
   - **Real-Time Optimization:** Continuously monitors and adjusts buffer size for uninterrupted streaming experiences.
 
-#### Complexity Analysis
+**Complexity Analysis**
 
 **Simple Queues**
 
@@ -162,7 +164,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
   - **Balanced Structure:** Ensure that operations like searching, adding, and removing songs remain efficient even as the playlist grows in size.
   - **Flexibility:** Allow for more complex operations, such as reordering or finding the predecessor or successor of a song, essential for an intuitive and responsive playlist management system.
 
-#### Complexity Analysis
+**Complexity Analysis**
 
 **Heaps**
 
@@ -199,7 +201,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 
 - **LRU Cache (Least Recently Used):** Efficiently manages a fixed-size cache by tracking usage order. It removes the least recently used item when the cache reaches its limit.
 
-#### Data Structures Used in LRU Cache
+**Data Structures Used in LRU Cache**
 
 - **Hash Map:** Maps keys to nodes in a doubly linked list, providing `O(1)` access to cache entries.
 - **Doubly Linked List:** Maintains usage order, placing the most recently used items at the front and the least recently used items at the back.
@@ -214,7 +216,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 - **Efficiency in Removing Any Song:** Unlike stacks, which require O(n) time complexity for removing arbitrary songs from the history, LRU caches provide O(1) time complexity for this operation due to their structured management of cache entries.
 
 
-#### Complexity Analysis
+**Complexity Analysis**
 
 **Stack**
 
@@ -288,7 +290,7 @@ Using a stack to manage the history of recently played songs in music streaming 
 - **Flexible Goal:** Suitable for multi-source and multi-destination scenarios, ideal for distributed content delivery networks.
 - **Better Performance on Sparse Graphs:** Reduces nodes processed, especially in sparse graphs, enhancing overall efficiency.
 
-#### Complexity Analysis
+**Complexity Analysis**
 
 **Dijkstra's Algorithm**
 
@@ -332,7 +334,7 @@ Efficient content delivery in music streaming relies on robust algorithms. While
 - **Real-Time Decision Making**: Priority queues facilitate real-time ad insertion decisions, ensuring that the most relevant and valuable ads are displayed to users.
 - **Scalability**: Both hash tables and priority queues scale efficiently with increasing user base and ad inventory, maintaining performance and relevance.
 
-#### Complexity Analysis
+**Complexity Analysis**
 
 **Simple Queues**
 - **Time Complexity**:
@@ -371,7 +373,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 - **High Space Complexity**: Space-inefficient with many nodes having only one child.
 - **Redundant Nodes**: Takes up space without significant search efficiency.
 
-#### Optimized Approach: Radix Tree
+**Optimized Approach: Radix Tree**
 **Implementation**:
 - **Radix Tree**: Reduces space complexity by merging nodes with single children.
 
@@ -382,7 +384,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Drawbacks**:
 - **Complex Implementation**: More complex to implement and maintain.
 
-#### Final Optimized Approach: Pruned Radix Tree
+**Final Optimized Approach: Pruned Radix Tree**
 **Implementation**:
 - **Pruned Radix Tree**: Further optimizes the radix tree by removing redundant nodes and merging common prefixes.
 
@@ -390,7 +392,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 - **Maximum Efficiency**: Combines compression and selective storage for optimal space and time complexity.
 - **Scalable**: Handles larger datasets more efficiently.
 
-#### Complexity Analysis
+**Complexity Analysis**
 
 **Trie Data Structure**:
 - **Time Complexity**: `O(m)` for search operations, where `m` is the length of the query string. This is because each character of the query string is processed sequentially.
@@ -463,7 +465,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 - **Time Complexity**: `O(log n)` for search, insertion, and deletion.
 - **Space Complexity**: `O(n)`, where `n` is the number of elements.
 
-#### Advantages Over Initial Approach
+**Advantages Over Initial Approach**
 
 **Skip Lists**:
 - **Faster Operations**: Skip lists provide faster search, insertion, and deletion compared to inverted indexing.
@@ -521,3 +523,51 @@ The Fisher-Yates Shuffle, also known as the Knuth Shuffle, is an algorithm for g
 
 The shuffling of music is a vital feature for enhancing user experience by providing a randomized playlist. The Fisher-Yates Shuffle algorithm is a highly efficient and effective method for achieving this.
 
+### 10. **Sorting Algorithms for Music Data**
+
+#### Earlier Approach: Quick Sort
+
+**Implementation**:
+- Quick Sort is a widely used sorting algorithm that works by selecting a 'pivot' element and partitioning the array into two sub-arrays, which are then sorted recursively.
+
+**Complexity Analysis**:
+- **Time Complexity**:
+  - Best-case: `O(n log n)`
+  - Average-case: `O(n log n)`
+  - Worst-case: `O(n^2)` (when the pivot selection is poor)
+- **Space Complexity**: `O(log n)` due to the recursion stack
+
+**Drawbacks**:
+- **Unstable**: Quick Sort is not stable, meaning the relative order of equal elements is not preserved.
+- **Worst-case Performance**: Poor pivot selection can lead to `O(n^2)` time complexity.
+- **Recursive Depth**: High recursion depth can cause stack overflow for large arrays.
+
+**Optimized Approach: Timsort**
+
+**Implementation**:
+- Timsort is a hybrid sorting algorithm that combines the advantages of Merge Sort and Insertion Sort. It is designed to perform well on real-world data with predictable patterns.
+
+**Complexity Analysis**:
+- **Time Complexity**:
+  - Best-case: `O(n)` (for nearly sorted data)
+  - Average-case: `O(n log n)`
+  - Worst-case: `O(n log n)`
+- **Space Complexity**: `O(n)` due to the auxiliary arrays used during merging
+
+**Advantages Over Quick Sort**:
+- **Stability**: Timsort is stable, preserving the relative order of equal elements.
+- **Adaptiveness**: Timsort is adaptive and optimizes for partially sorted data, which is common in real-world scenarios.
+- **Consistent Performance**: Timsort guarantees `O(n log n)` time complexity in the worst case, avoiding the pitfalls of Quick Sort's `O(n^2)` worst-case scenario.
+- **Memory Efficiency**: Although Timsort uses additional space, it is managed efficiently to handle real-world data sizes.
+
+**Complexity Comparison**:
+
+| Algorithm  | Best-case Time | Average-case Time | Worst-case Time | Space Complexity | Stability |
+|------------|----------------|-------------------|-----------------|------------------|-----------|
+| Quick Sort | `O(n log n)`   | `O(n log n)`      | `O(n^2)`        | `O(log n)`       | No        |
+| Timsort    | `O(n)`         | `O(n log n)`      | `O(n log n)`    | `O(n)`           | Yes       |
+
+
+- Quick Sort was the earlier approach used for sorting songs. While it performs well in the average case, its instability and poor worst-case performance make it less suitable for large, real-world data sets.
+- Timsort is the optimized approach, offering stability, adaptability, and consistent performance. It is particularly well-suited for the dynamic and varied data found in music streaming applications.
+- **Complexity Analysis**: Timsort's advantages in best-case and worst-case time complexities, combined with its stable nature, make it a superior choice for sorting songs alphabetically in a music streaming application.
