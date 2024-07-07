@@ -99,9 +99,9 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 **Heap Design**
 
 - **Implementation:**
-  - **Min-Heap for Playback:** Prioritizes packets based on playback time to ensure smooth playback.
+  1. **Min-Heap for Playback:** Prioritizes packets based on playback time to ensure smooth playback.
   - [Min-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/minheap.cpp)
-  - **Max-Heap for Live Streaming:** Prioritizes high-priority packets (e.g., keyframes) to maintain stream integrity.
+  2. **Max-Heap for Live Streaming:** Prioritizes high-priority packets (e.g., keyframes) to maintain stream integrity.
   - [Max-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/maxheap.cpp)
 
 - **Advantages:**
