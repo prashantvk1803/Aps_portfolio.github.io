@@ -76,7 +76,7 @@ This page hosts:
 
 ## 4. Business Model Analysis of Top two Platforms
 
-### 1.Spotify
+### 1. Spotify
 
 <div style="display: flex; align-items: center;">
   <img src="spotify.png" alt="Spotify Business Model" style="width: 100%; height: 70%; margin-right: 50px;"/>
@@ -85,7 +85,7 @@ This page hosts:
   </div>
 </div>
 
-### 2.Apple Music
+### 2. Apple Music
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <img src="app1.png" alt="Apple Music Business Model 1" style="width: 100%; height: 70%; margin-bottom: 20px;"/>
