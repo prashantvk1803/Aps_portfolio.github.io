@@ -26,7 +26,7 @@
 ## Analysis and Code
 
 ### 1. **Most liked/disliked song**:
-#### Initial Implementation Using Arrays
+#### Initial Approach: Using Arrays
 
 Arrays can be used to store like/dislike counts, with each index representing a song and its value representing the count.
 
@@ -67,4 +67,68 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
 
 Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the like/dislike system in a music streaming application. These data structures reduce the time complexity of update and query operations from `O(N)` to `O(log N)`, providing a more scalable and responsive solution compared to arrays. This ensures better performance and a superior user experience, especially with a large number of songs.
 
+
+
+#### 2. **Music Playback and Live Radio Streaming**
+
+##### Initial Approach: Simple Queues
+
+**Implementation:**
+- Simple FIFO (First-In-First-Out) queues were used to manage audio packets for playback and live streaming.
+- Packets were buffered in the order they were received and processed sequentially as dequeued.
+
+##### Drawbacks of Simple Queues
+
+- **Priority Handling:** Lack the capability to efficiently prioritize critical packets, leading to delays or inconsistencies in playback, especially in real-time scenarios.
+- **Performance Issues:** As user numbers increase, inefficiencies in managing packet priorities can degrade performance, affecting user satisfaction.
+
+##### Optimized Approaches: Heap Design and Sliding Window
+
+**Heap Design**
+
+- **Implementation:**
+  - **Min-Heap for Playback:** Prioritizes packets based on playback time to ensure smooth playback.
+  - **Max-Heap for Live Streaming:** Prioritizes high-priority packets (e.g., keyframes) to maintain stream integrity.
+
+- **Advantages:**
+  - **Efficiency:** Minimizes latency by prioritizing packets based on importance.
+  - **Scalability:** Handles varying loads effectively, suitable for large-scale streaming.
+
+**Sliding Window**
+
+- **Implementation:**
+  - **Fixed-Size Window:** Maintains a buffer of a predefined number of packets, adjustable based on real-time conditions.
+  - **Dynamic Adjustment:** Adapts window size based on network stability for optimal buffering and playback.
+
+- **Advantages:**
+  - **Adaptability:** Optimizes network bandwidth usage, improving responsiveness and reducing buffering times.
+  - **Real-Time Optimization:** Continuously monitors and adjusts buffer size for uninterrupted streaming experiences.
+
+##### Complexity Analysis
+
+**Simple Queues**
+
+- **Time Complexity:**
+  - Adding Packet: `O(1)`
+  - Getting Next Packet: `O(1)`
+  - Reordering/Prioritizing: `O(N)`
+- **Space Complexity:** `O(N)`
+
+**Heap Design**
+
+- **Time Complexity:**
+  - Adding Packet: `O(log N)`
+  - Getting Next Packet: `O(log N)`
+- **Space Complexity:** `O(N)`
+
+**Sliding Window**
+
+- **Time Complexity:**
+  - Adding Packet: `O(1)`
+  - Getting Packet: `O(1)`
+- **Space Complexity:** `O(W)`, where `W` is the window size.
+
+##### Conclusion
+
+Transitioning from simple queue methods to advanced techniques like Heap Design and Sliding Window significantly enhances the performance and user experience of music streaming applications. These optimized approaches ensure efficient packet management, prioritized processing of critical data, and adaptive buffering strategies, leading to smoother playback, reduced latency, and improved overall service quality. This optimization is crucial for handling the complexities of large-scale streaming scenarios and meeting the high expectations of modern streaming consumers.
 
