@@ -113,6 +113,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 - **Implementation:**
   - **Fixed-Size Window:** Maintains a buffer of a predefined number of packets, adjustable based on real-time conditions.
   - **Dynamic Adjustment:** Adapts window size based on network stability for optimal buffering and playback.
+  - [Sliding Window Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/slidingwin.cpp)
 
 - **Advantages:**
   - **Adaptability:** Optimizes network bandwidth usage, improving responsiveness and reducing buffering times.
@@ -162,6 +163,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 **Implementation:**
 
 - **Red-Black Trees:** These are a type of self-balancing binary search tree that maintain balance through rotations and color changes during insertions and deletions.
+- [Red-Black Tree Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/redblack.cpp)
 
 - **Advantages:**
   - **Efficient Insertion and Deletion:** Support efficient insertions and deletions at any position with a time complexity of `O(log n)`, making them ideal for dynamic playlist management.
@@ -204,6 +206,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 **Implementation:**
 
 - **LRU Cache (Least Recently Used):** Efficiently manages a fixed-size cache by tracking usage order. It removes the least recently used item when the cache reaches its limit.
+- [LRU Caching Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/lru.cpp)
 
 **Data Structures Used in LRU Cache**
 
@@ -249,6 +252,7 @@ Using a stack to manage the history of recently played songs in music streaming 
 **Implementation:**
 
 - **Dijkstra's Algorithm:** Used to find the shortest paths from a source node (server) to all other nodes (servers/users) in a weighted graph representing the network.
+- [Dijstra's Algorithm Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/dijkstra.c)
 
 **Data Structures Used:**
 
