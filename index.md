@@ -1,6 +1,7 @@
 # Dance Only to Your iTunes !
-  ### Music Streaming Application
-  
+
+## Music Streaming Application
+
 ![Header Image](appleM.jpg)
 
 <dl>
@@ -14,13 +15,13 @@
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
-* * *
+---
 
-> The new era of music streaming !
+> The new era of music streaming!
 >
 > PK
 
-* * *
+---
 
 # Introduction <a name="introduction"></a>
 
@@ -66,7 +67,7 @@
 5. Tidal
 6. Deezer
 
-## 4. Business Model Analysis of Top two Platforms
+## 4. Business Model Analysis of Top Two Platforms
 
 ### 1. Spotify
 
@@ -78,7 +79,6 @@
   </div>
 </div>
 
-
 ### 2. Apple Music
 
 <div style="display: flex; flex-direction: column; align-items: center;">
@@ -86,9 +86,3 @@
   <img src="app2.png" style="width: 98%; height: 50%; margin-bottom: 20px;"/>
   <p>The sources of revenue for the company come no more from 3rd parties but they are all fruit of the paid subscriptions of Apple Music users. The company management refused to adopt a freemium strategy as a sign of respect for the work of the artists, which considers to be undervalued if given for free to users. "Freemium companies are building an audience on the back of the artist" said Apple Music CEO in a speech to the audience at a Vanity Fair event in San Francisco (Statt, The Verge, 2015).</p>
 </div>
-
-
-
-
-
-
