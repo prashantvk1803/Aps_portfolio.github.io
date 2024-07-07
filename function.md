@@ -57,7 +57,7 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
 
 **Implementation:**
 
-1. **Segment Tree Construction:** Build a segment tree from the like/dislike counts array. <a href="https://pragatidbhat.github.io/Portfolio/4.html">Segment Tree code</a>
+1. **Segment Tree Construction:** Build a segment tree from the like/dislike counts array. <a href="[https://pragatidbhat.github.io/Portfolio/4.html](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/segment_tree.cpp)">Segment Tree code</a>
 2. **Fenwick Tree Construction:** Build a Fenwick tree from the like/dislike counts array.
 3. **Update Operation:** 
    - Update the like/dislike count in the segment tree.
