@@ -127,7 +127,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 **Sliding Window**
 
 
-<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/slidingWin.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
+<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/slidingWin.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 25px;"/> 
 
 
 - **Implementation:**
