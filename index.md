@@ -19,15 +19,6 @@
 >
 > PK
 
-
-#### Note:
-This page hosts:
-
-1. [Introduction](#introduction)
-2. [Why Portfolio](#why-portfolio)
-3. [Functionalities](#functionality)
-
-
 * * *
 
 # Introduction <a name="introduction"></a>
