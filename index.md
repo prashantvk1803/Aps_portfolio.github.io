@@ -79,7 +79,7 @@ This page hosts:
 ### 1. Spotify
 
 <div style="display: flex; align-items: center;">
-  <img src="spotify.png" alt="Spotify Business Model" style="width: 100%; height: 70%; margin-right: 50px;"/>
+  <img src="spotify.png" alt="Spotify Business Model" style="width: 85%; height: 50%; margin-right: 50px;"/>
   <div>
     <p>Spotify's business model exemplifies the "freemium" strategy, blending free and premium services. Their revenue sources and expenses, depicted by green and red arrows respectively in their chart, showcase a balanced approach. The platform offers basic features for free with ads, while premium subscribers enjoy ad-free listening, offline access, and higher audio quality. This model effectively builds a large user base without heavy investment in advertising. The crucial relationship between Spotify and its customers forms the foundation of their business model, catering to a wide range of listeners from casual to audiophiles. Industry data suggests freemium applications generate significant revenue in app stores, making it a robust model for the digital age and allowing Spotify to maintain steady revenue while fostering potential growth.</p>
   </div>
@@ -88,8 +88,8 @@ This page hosts:
 ### 2. Apple Music
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="app1.png" alt="Apple Music Business Model 1" style="width: 100%; height: 70%; margin-bottom: 20px;"/>
-  <img src="app2.png" style="width: 100%; height: 70%; margin-bottom: 20px;"/>
+  <img src="app1.png" alt="Apple Music Business Model 1" style="width: 85%; height: 50%; margin-bottom: 20px;"/>
+  <img src="app2.png" style="width: 85%; height: 50%; margin-bottom: 20px;"/>
   <p>The sources of revenue for the company come no more from 3rd parties but they are all fruit of the paid subscriptions of Apple Music users. The company management refused to adopt a freemium strategy as a sign of respect for the work of the artists, which considers to be undervalued if given for free to users. "Freemium companies are building an audience on the back of the artist" said Apple Music CEO in a speech to the audience at a Vanity Fair event in San Francisco (Statt, The Verge, 2015).</p>
 </div>
 
