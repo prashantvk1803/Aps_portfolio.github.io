@@ -70,7 +70,7 @@
 
 ### 1. Spotify
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; flex-direction: column; align-items: center;">
   <img src="spotify.png" alt="Spotify Business Model" style="width: 98%; height: 50%; margin-right: 50px;"/>
   <div>
     <p>Spotify's business model exemplifies the "freemium" strategy, blending free and premium services. Their revenue sources and expenses, depicted by green and red arrows respectively in their chart, showcase a balanced approach. The platform offers basic features for free with ads, while premium subscribers enjoy ad-free listening, offline access, and higher audio quality. This model effectively builds a large user base without heavy investment in advertising. The crucial relationship between Spotify and its customers forms the foundation of their business model, catering to a wide range of listeners from casual to audiophiles. Industry data suggests freemium applications generate significant revenue in app stores, making it a robust model for the digital age and allowing Spotify to maintain steady revenue while fostering potential growth.</p>
