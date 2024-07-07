@@ -3,7 +3,7 @@
 ## Functionalities Identified:
 
 #### 1. **Most liked/disliked song**:
-In a music streaming application, a like/dislike system is essential for personalizing recommendations, understanding user preferences, and determining song popularity. Efficiently managing and querying like/dislike counts is critical for maintaining a responsive user experience.
+A like/dislike mechanism is critical in music streaming applications for personalising recommendations, assessing user preferences, and calculating song popularity. Efficiently managing and querying like/dislike numbers is crucial to providing a responsive user experience.
  
 #### 2. **Music Playback and Live Radio Streaming** : 
 In music streaming applications, delivering seamless playback and efficient live radio streaming is essential for retaining users and providing a superior user experience. This involves handling large volumes of audio data, ensuring minimal latency, and adapting to varying network conditions without compromising audio quality or playback continuity.
