@@ -391,16 +391,16 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 #### Complexity Analysis
 
 **Trie Data Structure**:
-- **Time Complexity**: `O(m)` for search operations.
-- **Space Complexity**: `O(n * k)`, where n is the number of keys and k is the average length of keys.
+- **Time Complexity**: `O(m)` for search operations, where `m` is the length of the query string. This is because each character of the query string is processed sequentially.
+- **Space Complexity**: `O(n * k)`, where `n` is the number of keys and `k` is the average length of keys. This accounts for the storage of all characters in all keys.
 
-**Radix Tree**:
-- **Time Complexity**: `O(m)` for search operations.
-- **Space Complexity**: `O(n)`, more space-efficient than a trie due to node compression.
+**Radix Tree (Compressed Trie)**:
+- **Time Complexity**: `O(m)` for search operations, where `m` is the length of the query string. The search operation still involves traversing the tree based on the characters of the query.
+- **Space Complexity**: `O(n)`, where `n` is the number of keys. This is more space-efficient than a trie due to node compression.
 
 **Pruned Radix Tree**:
-- **Time Complexity**: `O(m)` for search operations.
-- **Space Complexity**: `O(n)`, optimized further by pruning unnecessary nodes.
+- **Time Complexity**: `O(m)` for search operations, where `m` is the length of the query string. The optimization primarily affects space, not time complexity.
+- **Space Complexity**: `O(n)`, where `n` is the number of keys. This is optimized further by pruning unnecessary nodes, making it more space-efficient than a standard radix tree.
 
-#### Summary
+
 Effective search algorithms and autocomplete features are vital for music streaming applications. The trie structure was fast for lookups but space-inefficient due to redundant nodes. Radix trees improved space efficiency through node compression. The pruned radix tree combines compression and selective storage for maximum efficiency, ensuring quick and accurate search results, efficient indexing, and scalable performance as the music library grows.
