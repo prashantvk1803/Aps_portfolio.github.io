@@ -107,7 +107,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
      - [Min-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/minheap.cpp)
   
   2. **Max-Heap for Live Streaming:** Prioritizes high-priority packets (e.g., keyframes) to maintain stream integrity.
-     - [Max-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/maxheap.cpp
+     - [Max-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/maxheap.cpp)
        
   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg"/>
 
