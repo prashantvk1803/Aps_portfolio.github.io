@@ -4,9 +4,11 @@
 
 #### 1. **Most liked/disliked song**
  
-#### 2. **Music Playback and Live Radio Streaming** : In music streaming applications, delivering seamless playback and efficient live radio streaming is essential for retaining users and providing a superior user experience. This involves handling large volumes of audio data, ensuring minimal latency, and adapting to varying network conditions without compromising audio quality or playback continuity.
+#### 2.* **Music Playback and Live Radio Streaming** : 
+In music streaming applications, delivering seamless playback and efficient live radio streaming is essential for retaining users and providing a superior user experience. This involves handling large volumes of audio data, ensuring minimal latency, and adapting to varying network conditions without compromising audio quality or playback continuity.
 
-#### 3. **Playlist Management**: In music streaming applications, managing playlists efficiently is crucial for enhancing user experience. Playlist management involves adding, removing, and reordering songs within a playlist. This requires data structures that support fast insertions, deletions, and access operations to ensure that users can modify and interact with their playlists seamlessly.
+#### 3.* **Playlist Management**: 
+In music streaming applications, managing playlists efficiently is crucial for enhancing user experience. Playlist management involves adding, removing, and reordering songs within a playlist. This requires data structures that support fast insertions, deletions, and access operations to ensure that users can modify and interact with their playlists seamlessly.
         
 #### 4. **History of Songs**
 
