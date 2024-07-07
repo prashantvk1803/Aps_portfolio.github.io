@@ -2,25 +2,25 @@
 
 ## Functionalities Identified:
 
-### 1. **Most liked/disliked song**
+#### 1. **Most liked/disliked song**
  
-### 2. **Music Playback and Live Radio Streaming**
+#### 2. **Music Playback and Live Radio Streaming**
 
-### 3. **Playlist Management**
+#### 3. **Playlist Management**
         
-### 4. **History of Songs**
+#### 4. **History of Songs**
 
-### 5. **Content Delivery Optimization**
+#### 5. **Content Delivery Optimization**
    
-### 6. **Ad Insertion during streaming**
+#### 6. **Ad Insertion during streaming**
 
-### 7. **Searching with Autocomplete feature**
+#### 7. **Searching with Autocomplete feature**
 
-### 8. **Content Indexing and Retrieval from Memory**
+#### 8. **Content Indexing and Retrieval from Memory**
     
-### 9. **Shuffling of Songs**
+#### 9. **Shuffling of Songs**
 
-### 10. **Payment Subscription**
+#### 10. **Payment Subscription**
 
 
 ## Analysis and Code
