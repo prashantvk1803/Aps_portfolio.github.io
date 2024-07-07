@@ -296,6 +296,4 @@ Using a stack to manage the history of recently played songs in music streaming 
 - **Time Complexity:** `O(E)` or `O(b^d)`, depending on heuristic quality.
 - **Space Complexity:** `O(V)` for open list, closed list, and heuristic values.
 
-#### Summary
-
-Efficient content delivery in music streaming relies on robust algorithms. While Dijkstra's algorithm is foundational, its limitations in heuristic guidance and single-source focus make it less suitable for large-scale scenarios. The A* algorithm, leveraging heuristics for efficient routing, offers significant improvements in performance and flexibility. By optimizing pathfinding with heuristic-driven decisions, A* enhances user experience by ensuring faster and more reliable access to music content across global networks.
+Efficient content delivery in music streaming relies on robust algorithms. While Dijkstra's algorithm is foundational, its limitations in heuristic guidance and single-source focus make it less suitable for large-scale scenarios. The A* algorithm, leveraging heuristics for efficient routing, offers improvements in performance and flexibility. 
