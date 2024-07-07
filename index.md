@@ -80,13 +80,10 @@ This page hosts:
 ### 4. Business Model Analysis of Top Platforms
 
 #### Spotify
-<div style="display: flex; align-items: flex-start;">
-    <img src="spotify.png" alt="Spotify Business Model" style="width: 50%; margin-right: 20px;">
-    <div>
-        <p>Spotify's business model is a prime example of the "freemium" strategy, combining free and premium services. The model's revenue sources (shown by green arrows in their chart) and expenses (red arrows) illustrate a balanced approach. At its core, Spotify offers basic features for free, with ads, while providing richer functionalities for a subscription fee.</p>
-        <p>Premium features include ad-free listening, offline access, higher audio quality, and more control over track selection. This model has proven effective in building a large user base without heavy investment in advertising or sales. Industry data suggests that freemium applications generate significant revenue in app stores, making it a robust model for the digital age.</p>
-        <p>The relationship between Spotify and its customers is crucial, forming the foundation of their business model. This strategy allows Spotify to cater to a wide range of users, from casual listeners to audiophiles, while maintaining a steady revenue stream and potential for user base growth.</p>
-    </div>
+
+<div style="display: flex; align-items: center;">
+  <img src="spotify.png" alt="Spotify Business Model" style="width: 50%; height: auto; margin-right: 50px; margin-left:50px;"/>
+  <p>Spotify's business model exemplifies the "freemium" strategy, blending free and premium services. Their revenue sources and expenses, depicted by green and red arrows respectively in their chart, showcase a balanced approach. The platform offers basic features for free with ads, while premium subscribers enjoy ad-free listening, offline access, and higher audio quality. This model effectively builds a large user base without heavy investment in advertising. The crucial relationship between Spotify and its customers forms the foundation of their business model, catering to a wide range of listeners from casual to audiophiles. Industry data suggests freemium applications generate significant revenue in app stores, making it a robust model for the digital age and allowing Spotify to maintain steady revenue while fostering potential growth.</p>
 </div>
 
 
