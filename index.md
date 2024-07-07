@@ -80,6 +80,13 @@ This page hosts:
 ### 4. Business Model Analysis of Top Platforms
 
 #### Spotify
-![Spotify Business Model](spotify.png)
+<div style="display: flex; align-items: flex-start;">
+    <img src="spotify.png" alt="Spotify Business Model" style="width: 50%; margin-right: 20px;">
+    <div>
+        <p>Spotify's business model is a prime example of the "freemium" strategy, combining free and premium services. The model's revenue sources (shown by green arrows in their chart) and expenses (red arrows) illustrate a balanced approach. At its core, Spotify offers basic features for free, with ads, while providing richer functionalities for a subscription fee.</p>
+        <p>Premium features include ad-free listening, offline access, higher audio quality, and more control over track selection. This model has proven effective in building a large user base without heavy investment in advertising or sales. Industry data suggests that freemium applications generate significant revenue in app stores, making it a robust model for the digital age.</p>
+        <p>The relationship between Spotify and its customers is crucial, forming the foundation of their business model. This strategy allows Spotify to cater to a wide range of users, from casual listeners to audiophiles, while maintaining a steady revenue stream and potential for user base growth.</p>
+    </div>
+</div>
 
 
