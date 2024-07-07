@@ -58,12 +58,12 @@ This page hosts:
    The global music streaming market is experiencing rapid growth, driven by increasing internet penetration and smartphone usage.
 
 * **Current Trends**:
-  • Personalization through AI and machine learning
-  • High-fidelity audio streaming
-  • Integration with social media for sharing and discovery
-  • Offline listening capabilities
-  • Use of blockchain for artist royalties and transparent transactions
-  • Effective digital marketing  
+  - Personalization through AI and machine learning
+  - High-fidelity audio streaming
+  - Integration with social media for sharing and discovery
+  - Offline listening capabilities
+  - Use of blockchain for artist royalties and transparent transactions
+  - Effective digital marketing 
 
 * **Market Projection**:
    The music streaming market is projected to reach a substantial market size, driven by innovation and consumer demand for seamless access to music.
