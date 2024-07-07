@@ -17,21 +17,4 @@
 
 > The new era of music streaming !
 >
-> PK
-
-
-#### Note:
-This page hosts:
-
-1. [Introduction](#introduction)
-2. [Why Portfolio](#why-portfolio)
-3. [Objectives](#objectives)
-4. [Design](#design)
-5. [Challenges](#challenges)
-6. [To-Do](#to-do)
-
-
-* * *
-
-## Introduction <a name="introduction"></a>
-
+> PK :-))
