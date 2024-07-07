@@ -69,20 +69,20 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 
 
 
-#### 2. **Music Playback and Live Radio Streaming**
+### 2. **Music Playback and Live Radio Streaming**
 
-##### Initial Approach: Simple Queues
+#### Initial Approach: Simple Queues
 
 **Implementation:**
 - Simple FIFO (First-In-First-Out) queues were used to manage audio packets for playback and live streaming.
 - Packets were buffered in the order they were received and processed sequentially as dequeued.
 
-##### Drawbacks of Simple Queues
+#### Drawbacks of Simple Queues
 
 - **Priority Handling:** Lack the capability to efficiently prioritize critical packets, leading to delays or inconsistencies in playback, especially in real-time scenarios.
 - **Performance Issues:** As user numbers increase, inefficiencies in managing packet priorities can degrade performance, affecting user satisfaction.
 
-##### Optimized Approaches: Heap Design and Sliding Window
+#### Optimized Approaches: Heap Design and Sliding Window
 
 **Heap Design**
 
@@ -104,7 +104,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
   - **Adaptability:** Optimizes network bandwidth usage, improving responsiveness and reducing buffering times.
   - **Real-Time Optimization:** Continuously monitors and adjusts buffer size for uninterrupted streaming experiences.
 
-##### Complexity Analysis
+#### Complexity Analysis
 
 **Simple Queues**
 
@@ -127,8 +127,6 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
   - Adding Packet: `O(1)`
   - Getting Packet: `O(1)`
 - **Space Complexity:** `O(W)`, where `W` is the window size.
-
-##### Conclusion
 
 Transitioning from simple queue methods to advanced techniques like Heap Design and Sliding Window significantly enhances the performance and user experience of music streaming applications. These optimized approaches ensure efficient packet management, prioritized processing of critical data, and adaptive buffering strategies, leading to smoother playback, reduced latency, and improved overall service quality. This optimization is crucial for handling the complexities of large-scale streaming scenarios and meeting the high expectations of modern streaming consumers.
 
