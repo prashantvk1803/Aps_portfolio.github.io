@@ -1,4 +1,4 @@
-# Dance Only to Your Tunes !
+# Dance only to your iTunes !
   ### - Music Streaming Application
   
 ![Header Image](appleM.jpg)
