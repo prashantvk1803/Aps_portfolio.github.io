@@ -77,3 +77,8 @@ This page hosts:
 5. Tidal
 6. Deezer
 
+### 4. Business Model Analysis of Top Platforms
+
+#### Spotify
+
+
