@@ -17,4 +17,5 @@ Presenting my observations and findings from this project will enhance my presen
 ## 5. Portfolio Enhancement
 Having a well-documented and impactful portfolio project demonstrates my skills and dedication to potential employers or academic programs, making me a more competitive candidate.
 
+
 By completing this portfolio project, I will not only fulfill the requirements of my course but also significantly advance my personal and professional development.
