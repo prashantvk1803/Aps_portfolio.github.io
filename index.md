@@ -25,7 +25,7 @@
 ## Note:
 #### This Portfolio presents:-
 
-1. [Introduction](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/index.md)
+1. [Introduction](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/introduction.md)
 2. [Why Portfolio](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/whyportfolio.md)
 3. [Functionalities, Analysis and code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/function.md)
 4. [References](#references)
