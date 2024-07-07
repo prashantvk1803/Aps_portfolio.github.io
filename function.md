@@ -19,7 +19,8 @@ In music streaming applications, delivering music content efficiently to users w
 #### 6. **Ad Insertion during streaming**:
 In streaming applications, dynamically inserting ads based on user data is crucial for optimizing revenue and enhancing user engagement. Ad insertion algorithms aim to seamlessly integrate relevant advertisements into the streaming content, ensuring a personalized experience for users.
 
-#### 7. **Searching with Autocomplete feature**
+#### 7. **Searching with Autocomplete feature**:
+In music streaming applications, providing efficient and fast search capabilities is crucial for enhancing user experience. Users expect quick and accurate search results for song titles, artists, and albums. Implementing effective search algorithms and autocomplete features ensures users can find their desired content swiftly.
 
 #### 8. **Content Indexing and Retrieval from Memory**
     
@@ -299,9 +300,9 @@ Using a stack to manage the history of recently played songs in music streaming 
 
 Efficient content delivery in music streaming relies on robust algorithms. While Dijkstra's algorithm is foundational, its limitations in heuristic guidance and single-source focus make it less suitable for large-scale scenarios. The A* algorithm, leveraging heuristics for efficient routing, offers improvements in performance and flexibility. 
 
-### 5. Ad Insertion during Streaming
+### 6. Ad Insertion during Streaming
 
-#### Earlier Approach: Simple Queues
+#### Initial Approach: Simple Queues
 **Implementation**:
 - **Simple Queues**: Initially, a basic queue structure was used to manage the order of ad insertion. Ads were added to the queue in the order they were received and processed sequentially.
 
@@ -353,3 +354,53 @@ Efficient content delivery in music streaming relies on robust algorithms. While
 
 Effective ad insertion in streaming applications requires advanced algorithms and data structures to dynamically match ads with user preferences and streaming context. Simple queues were limited in personalization and efficiency as user and ad campaign complexities grew. By adopting hash tables for efficient data management and priority queues for real-time decision making, streaming platforms can optimize ad insertion based on user data and content relevance. These approaches enhance user engagement, maximize ad revenue opportunities, and provide scalable solutions that adapt to varying user demands and ad campaign priorities, ensuring a seamless and tailored streaming experience.
 
+### Search Algorithms and Autocomplete
+
+#### Earlier Approach: Trie Data Structure
+**Implementation**:
+- **Trie Structure**: A trie (prefix tree) is used to store and retrieve keys in a dataset of strings, where each node represents a character.
+- **Efficient Indexing**: Allows for fast prefix-based lookups.
+
+**Advantages**:
+- **Fast Lookups**: `O(m)` time complexity for search operations, where m is the length of the query string.
+- **Efficient Autocomplete**: Supports efficient autocomplete by traversing the tree from the query prefix.
+
+**Drawbacks**:
+- **High Space Complexity**: Space-inefficient with many nodes having only one child.
+- **Redundant Nodes**: Takes up space without significant search efficiency.
+
+#### Optimized Approach: Radix Tree
+**Implementation**:
+- **Radix Tree**: Reduces space complexity by merging nodes with single children.
+
+**Advantages**:
+- **Reduced Space Complexity**: More space-efficient due to node compression.
+- **Faster Lookups**: Maintains efficient `O(m)` search time with less memory.
+
+**Drawbacks**:
+- **Complex Implementation**: More complex to implement and maintain.
+
+#### Final Optimized Approach: Pruned Radix Tree
+**Implementation**:
+- **Pruned Radix Tree**: Further optimizes the radix tree by removing redundant nodes and merging common prefixes.
+
+**Advantages**:
+- **Maximum Efficiency**: Combines compression and selective storage for optimal space and time complexity.
+- **Scalable**: Handles larger datasets more efficiently.
+
+#### Complexity Analysis
+
+**Trie Data Structure**:
+- **Time Complexity**: `O(m)` for search operations.
+- **Space Complexity**: `O(n * k)`, where n is the number of keys and k is the average length of keys.
+
+**Radix Tree**:
+- **Time Complexity**: `O(m)` for search operations.
+- **Space Complexity**: `O(n)`, more space-efficient than a trie due to node compression.
+
+**Pruned Radix Tree**:
+- **Time Complexity**: `O(m)` for search operations.
+- **Space Complexity**: `O(n)`, optimized further by pruning unnecessary nodes.
+
+#### Summary
+Effective search algorithms and autocomplete features are vital for music streaming applications. The trie structure was fast for lookups but space-inefficient due to redundant nodes. Radix trees improved space efficiency through node compression. The pruned radix tree combines compression and selective storage for maximum efficiency, ensuring quick and accurate search results, efficient indexing, and scalable performance as the music library grows.
