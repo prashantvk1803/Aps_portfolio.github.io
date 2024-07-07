@@ -277,6 +277,7 @@ Using a stack to manage the history of recently played songs in music streaming 
 **Implementation:**
 
 - **A* Algorithm:** Enhances Dijkstra's algorithm by using heuristics to guide the search towards the goal, improving efficiency for content delivery optimization.
+- [A* Star Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/astar.cpp)
 
 **Data Structures Used:**
 
@@ -330,12 +331,14 @@ Efficient content delivery in music streaming relies on robust algorithms. While
 - **Hash Tables**: Used to store ads and their associated metadata, such as priority, target audience, and content relevance.
 - **Key-Value Mapping**: Ads are indexed by unique identifiers (e.g., ad ID) for quick retrieval and updates.
 - **Efficient Lookup**: Provides `O(1)` average time complexity for accessing and updating ad information based on user data and streaming context.
+- [Hashing Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/hashing.cpp)
 
 **Priority Queues**
 **Implementation**:
 - **Priority Queues**: Employed to dynamically prioritize ads for insertion based on predefined criteria such as user profile, streaming content, and ad campaign goals.
 - **Heap Structure**: Maintains ads in a priority order, ensuring that higher-priority ads are inserted into the streaming content before lower-priority ones.
 - **Efficient Insertion and Removal**: Offers `O(log n)` time complexity for both insertion and deletion operations, ensuring that ad insertion decisions are made efficiently based on current conditions.
+- [Max-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/maxheap.cpp)
 
 **Advantages of Optimized Approaches**:
 - **Personalization**: Hash tables enable personalized ad targeting by storing and retrieving user-specific preferences and behaviors.
@@ -372,6 +375,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Implementation**:
 - **Trie Structure**: A trie (prefix tree) is used to store and retrieve keys in a dataset of strings, where each node represents a character.
 - **Efficient Indexing**: Allows for fast prefix-based lookups.
+- [Trie Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/trie.cpp)
 
 **Advantages**:
 - **Fast Lookups**: `O(m)` time complexity for search operations, where m is the length of the query string.
@@ -384,6 +388,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Optimized Approach: Radix Tree**
 **Implementation**:
 - **Radix Tree**: Reduces space complexity by merging nodes with single children.
+- [Radix Tree Code](https://github.com/gammazero/radixtree)
 
 **Advantages**:
 - **Reduced Space Complexity**: More space-efficient due to node compression.
@@ -395,6 +400,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Final Optimized Approach: Pruned Radix Tree**
 **Implementation**:
 - **Pruned Radix Tree**: Further optimizes the radix tree by removing redundant nodes and merging common prefixes.
+- [Pruning Radix Tree Code](https://github.com/wolfgarbe/PruningRadixTrie/blob/master/PruningRadixTrie/PruningRadixTrie.cs)
 
 **Advantages**:
 - **Maximum Efficiency**: Combines compression and selective storage for optimal space and time complexity.
@@ -424,6 +430,8 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Implementation**:
 - **Index Structure**: A dictionary-like structure where each key is a term (e.g., song title, artist) and the value is a list of file identifiers where the term appears.
 - **Search and Retrieval**: When a search query is made, the inverted index is quickly looked up to find the list of files that match the query terms.
+- [Inverted Indexing Code](https://www.geeksforgeeks.org/inverted-index/)
+
 
 **Complexity Analysis of Inverted Indexing**:
 - **Time Complexity**:
@@ -446,6 +454,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Implementation**:
 - **Index Structure**: Nodes are arranged in multiple levels, with each level having a subset of the nodes from the level below.
 - **Search and Retrieval**: Skip lists allow `O(log n)` average time complexity for search operations by skipping over large portions of the list.
+- [Skip Lists Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/skiplist.cpp)
 
 **Advantages**:
 - **Fast Search, Insert, Delete**: Offers logarithmic time complexity for these operations.
@@ -463,6 +472,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Implementation**:
 - **Index Structure**: Consists of nodes with multiple keys and children. Each node can have up to a fixed number of children (defined by the order of the B-tree).
 - **Search and Retrieval**: Supports efficient range queries and multi-attribute searches due to its balanced structure.
+- [B-Trees Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/btree.cpp)
 
 **Advantages**:
 - **Efficient Disk Access**: Minimizes disk reads/writes by ensuring that nodes are large and read in single disk operations.
@@ -491,6 +501,8 @@ Efficient content indexing is essential for quick and reliable access to music f
 **Fisher-Yates Shuffle Algorithm**:
 
 The Fisher-Yates Shuffle, also known as the Knuth Shuffle, is an algorithm for generating a random permutation of a finite sequence—in plain terms, it's a way to shuffle a list or an array effectively.
+
+- **[Shuffling Code](https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/)**
 
 **Deep Analysis of Fisher-Yates Shuffle Algorithm**:
 
@@ -537,6 +549,7 @@ The shuffling of music is a vital feature for enhancing user experience by provi
 
 **Implementation**:
 - Quick Sort is a widely used sorting algorithm that works by selecting a 'pivot' element and partitioning the array into two sub-arrays, which are then sorted recursively.
+- [Quick Sort Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/quicksort.cpp)
 
 **Complexity Analysis**:
 - **Time Complexity**:
@@ -554,6 +567,7 @@ The shuffling of music is a vital feature for enhancing user experience by provi
 
 **Implementation**:
 - Timsort is a hybrid sorting algorithm that combines the advantages of Merge Sort and Insertion Sort. It is designed to perform well on real-world data with predictable patterns.
+- [Timsort Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/timsort.cpp)
 
 **Complexity Analysis**:
 - **Time Complexity**:
