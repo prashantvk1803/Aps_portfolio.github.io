@@ -53,8 +53,10 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
 #### Optimized Implementation Using Segment Trees and Fenwick Trees
 
 - **Segment Trees:** Allow efficient handling of range queries and updates.
+  
   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/segment.jpg"/> 
 - **Fenwick Trees:** Efficiently manage cumulative frequency tables, allowing for quick updates and prefix sum queries.
+  
   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/fenwick.jpg"/> 
 
 **Implementation:**
@@ -103,10 +105,13 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 - **Implementation:**
   1. **Min-Heap for Playback:** Prioritizes packets based on playback time to ensure smooth playback.
      - [Min-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/minheap.cpp)
+  
   2. **Max-Heap for Live Streaming:** Prioritizes high-priority packets (e.g., keyframes) to maintain stream integrity.
      - [Max-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/maxheap.cpp
        
   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg"/>
+
+
   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg"/> 
 
 - **Advantages:**
@@ -114,6 +119,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
   - **Scalability:** Handles varying loads effectively, suitable for large-scale streaming.
 
 **Sliding Window**
+
 
 <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/slidingWin.png"/> 
 
@@ -210,6 +216,8 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 - **Limited Access:** While stacks allow quick access to the most recent song, managing older or specific songs requires linear time complexity, impacting performance.
 
 #### Optimized Approaches: LRU Cache
+
+
 <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/lru.png"/> 
 
 
@@ -288,6 +296,7 @@ Using a stack to manage the history of recently played songs in music streaming 
 
 - **A* Algorithm:** Enhances Dijkstra's algorithm by using heuristics to guide the search towards the goal, improving efficiency for content delivery optimization.
 - [A* Star Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/astar.cpp)
+
 
   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/A*.png"/> 
 
@@ -418,6 +427,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Advantages**:
 - **Maximum Efficiency**: Combines compression and selective storage for optimal space and time complexity.
 - **Scalable**: Handles larger datasets more efficiently.
+
 
 <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/radixtrie.png"/> 
 
