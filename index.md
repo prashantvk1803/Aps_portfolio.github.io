@@ -28,4 +28,4 @@
 1. [Introduction](introduction.md)
 2. [Why Portfolio](whyportfolio.md)
 3. [Functionalities, Analysis and code](function.md)
-4. [References](#references)
+4. [References](references.md)
