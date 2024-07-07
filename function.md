@@ -205,10 +205,6 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 - **Automatic Eviction:** Handles eviction of the least recently used items automatically, maintaining optimal cache size without additional logic.
 - **Order Maintenance:** Efficiently manages usage order, crucial for quick identification and eviction of least recently used items.
 
-#### Why LRU Cache is Preferred Over Stack
-
-- **Efficiency in Removing Any Song:** Unlike stacks, which require `O(n)` time complexity for removing arbitrary songs from the history, LRU caches provide `O(1)` time complexity for this operation due to their structured management of cache entries.
-
 #### Complexity Analysis
 
 **Stack**
