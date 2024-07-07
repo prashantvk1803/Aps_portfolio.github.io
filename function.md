@@ -196,37 +196,37 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 
 #### Data Structures Used in LRU Cache
 
-- **Hash Map:** Maps keys to nodes in a doubly linked list, providing O(1) access to cache entries.
+- **Hash Map:** Maps keys to nodes in a doubly linked list, providing 'O(1)' access to cache entries.
 - **Doubly Linked List:** Maintains usage order, placing the most recently used items at the front and the least recently used items at the back.
 
 **Advantages Over Stack**
 
-- **Efficient Operations:** LRU caches offer O(1) time complexity for accessing, adding, and updating cache entries, including removing any song from the history.
+- **Efficient Operations:** LRU caches offer 'O(1)' time complexity for accessing, adding, and updating cache entries, including removing any song from the history.
 - **Automatic Eviction:** Handles eviction of the least recently used items automatically, maintaining optimal cache size without additional logic.
 - **Order Maintenance:** Efficiently manages usage order, crucial for quick identification and eviction of least recently used items.
 
 #### Why LRU Cache is Preferred Over Stack
 
-- **Efficiency in Removing Any Song:** Unlike stacks, which require O(n) time complexity for removing arbitrary songs from the history, LRU caches provide O(1) time complexity for this operation due to their structured management of cache entries.
+- **Efficiency in Removing Any Song:** Unlike stacks, which require 'O(n)' time complexity for removing arbitrary songs from the history, LRU caches provide 'O(1)' time complexity for this operation due to their structured management of cache entries.
 
 #### Complexity Analysis
 
 **Stack**
 
 - **Time Complexity:**
-  - Accessing the Most Recent Song: O(1)
-  - Adding a Song: O(1)
-  - Removing the Most Recent Song: O(1)
-  - Removing Any Song: O(n)
-- **Space Complexity:** O(n)
+  - Accessing the Most Recent Song: 'O(1)'
+  - Adding a Song: 'O(1)'
+  - Removing the Most Recent Song: 'O(1)'
+  - Removing Any Song: 'O(n)'
+- **Space Complexity:** 'O(n)'
 
 **LRU Cache**
 
 - **Time Complexity:**
-  - Accessing a Song: O(1)
-  - Adding a Song: O(1)
-  - Removing the Least Recently Used Song: O(1)
-  - Removing Any Song: O(1)
-- **Space Complexity:** O(n)
+  - Accessing a Song: 'O(1)'
+  - Adding a Song: 'O(1)'
+  - Removing the Least Recently Used Song: 'O(1)'
+  - Removing Any Song: 'O(1)'
+- **Space Complexity:** 'O(n)'
 
 Using a stack to manage the history of recently played songs in music streaming applications is inefficient due to its linear time complexity for removing arbitrary songs. In contrast, an LRU cache, employing a hash map and doubly linked list, ensures constant time complexity for access, update, and removal operations. This optimization allows quick access to recent tracks while efficiently managing cache size, significantly enhancing user experience in applications like Apple Music.
