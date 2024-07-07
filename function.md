@@ -40,7 +40,7 @@ In a music streaming application, users often want to sort their songs alphabeti
 
 Arrays can be used to store like/dislike counts, with each index representing a song and its value representing the count.
 
-**Drawbacks:**
+**Drawbacks of Arrays:**
 
 - **Time Complexity:**
   - **Update Operation:** `O(1)` for updating a single like/dislike count.
@@ -89,7 +89,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 - Simple FIFO (First-In-First-Out) queues were used to manage audio packets for playback and live streaming.
 - Packets were buffered in the order they were received and processed sequentially as dequeued.
 
-#### Drawbacks of Simple Queues
+**Drawbacks of Simple Queues:**
 
 - **Priority Handling:** Lack the capability to efficiently prioritize critical packets, leading to delays or inconsistencies in playback, especially in real-time scenarios.
 - **Performance Issues:** As user numbers increase, inefficiencies in managing packet priorities can degrade performance, affecting user satisfaction.
@@ -119,7 +119,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
   - **Adaptability:** Optimizes network bandwidth usage, improving responsiveness and reducing buffering times.
   - **Real-Time Optimization:** Continuously monitors and adjusts buffer size for uninterrupted streaming experiences.
 
-**Complexity Analysis**
+**Complexity Analysis:**
 
 **Simple Queues**
 
@@ -153,7 +153,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 
 - **Min-Heap/Max-Heap:** Initially used to manage playlists, leveraging their ability to efficiently retrieve the highest or lowest priority elements.
 
-#### Drawbacks of Heaps
+**Drawbacks of Heaps:**
 
 - **Arbitrary Insertion/Deletion:** Heaps are not well-suited for arbitrary insertions or deletions within the structure, as these operations require rebalancing the heap, which can be inefficient.
 - **Limited Flexibility:** While heaps are efficient for prioritizing elements, they lack the flexibility needed for dynamic playlist management where users frequently add, remove, or reorder songs.
@@ -165,12 +165,12 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 - **Red-Black Trees:** These are a type of self-balancing binary search tree that maintain balance through rotations and color changes during insertions and deletions.
 - [Red-Black Tree Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/redblack.cpp)
 
-- **Advantages:**
+- **Advantages over Heap:**
   - **Efficient Insertion and Deletion:** Support efficient insertions and deletions at any position with a time complexity of `O(log n)`, making them ideal for dynamic playlist management.
   - **Balanced Structure:** Ensure that operations like searching, adding, and removing songs remain efficient even as the playlist grows in size.
   - **Flexibility:** Allow for more complex operations, such as reordering or finding the predecessor or successor of a song, essential for an intuitive and responsive playlist management system.
 
-**Complexity Analysis**
+**Complexity Analysis:**
 
 **Heaps**
 
@@ -196,7 +196,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 
 - **Stack:** Initially used to store the history of recently played songs, with songs pushed onto the stack as they were played, placing the most recent song at the top.
 
-#### Drawbacks of Stack
+**Drawbacks of Stack:**
 
 - **Efficiency:** Stacks efficiently manage the most recently played song (LIFO order) but are inefficient for accessing or removing arbitrary songs from the history due to their sequential nature.
 - **Limited Access:** While stacks allow quick access to the most recent song, managing older or specific songs requires linear time complexity, impacting performance.
@@ -213,7 +213,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 - **Hash Map:** Maps keys to nodes in a doubly linked list, providing `O(1)` access to cache entries.
 - **Doubly Linked List:** Maintains usage order, placing the most recently used items at the front and the least recently used items at the back.
 
-**Advantages Over Stack**
+**Advantages Over Stack:**
 
 - **Efficient Operations:** LRU caches offer `O(1)` time complexity for accessing, adding, and updating cache entries, including removing any song from the history.
 - **Automatic Eviction:** Handles eviction of the least recently used items automatically, maintaining optimal cache size without additional logic.
@@ -223,7 +223,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 - **Efficiency in Removing Any Song:** Unlike stacks, which require O(n) time complexity for removing arbitrary songs from the history, LRU caches provide O(1) time complexity for this operation due to their structured management of cache entries.
 
 
-**Complexity Analysis**
+**Complexity Analysis:**
 
 **Stack**
 
@@ -266,7 +266,7 @@ Using a stack to manage the history of recently played songs in music streaming 
 3. For the selected node, update the distances to its neighboring nodes.
 4. Repeat until all nodes have been processed.
 
-#### Drawbacks of Dijkstra's Algorithm
+**Drawbacks of Dijkstra's Algorithm**
 
 - **Single Source Limitation:** Computes shortest paths from a single source, limiting efficiency for global content delivery requiring multiple sources (servers).
 - **Uniform Heuristic:** Lacks heuristic guidance, making it less efficient for large-scale networks where estimating closer nodes could save time.
@@ -293,13 +293,13 @@ Using a stack to manage the history of recently played songs in music streaming 
 4. Use the heuristic to estimate the cost to the goal, guiding the search efficiently.
 5. Repeat until reaching the goal node or exhausting the open list.
 
-**Advantages:**
+**Advantages over Dijstra's Algorithm:**
 
 - **Heuristic Guidance:** Prioritizes nodes closer to the goal, leading to `O(1)` faster search times compared to Dijkstra's algorithm.
 - **Flexible Goal:** Suitable for multi-source and multi-destination scenarios, ideal for distributed content delivery networks.
 - **Better Performance on Sparse Graphs:** Reduces nodes processed, especially in sparse graphs, enhancing overall efficiency.
 
-**Complexity Analysis**
+**Complexity Analysis:**
 
 **Dijkstra's Algorithm**
 
@@ -345,7 +345,7 @@ Efficient content delivery in music streaming relies on robust algorithms. While
 - **Real-Time Decision Making**: Priority queues facilitate real-time ad insertion decisions, ensuring that the most relevant and valuable ads are displayed to users.
 - **Scalability**: Both hash tables and priority queues scale efficiently with increasing user base and ad inventory, maintaining performance and relevance.
 
-**Complexity Analysis**
+**Complexity Analysis:**
 
 **Simple Queues**
 - **Time Complexity**:
@@ -381,7 +381,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 - **Fast Lookups**: `O(m)` time complexity for search operations, where m is the length of the query string.
 - **Efficient Autocomplete**: Supports efficient autocomplete by traversing the tree from the query prefix.
 
-**Drawbacks**:
+**Drawbacks of Trie**:
 - **High Space Complexity**: Space-inefficient with many nodes having only one child.
 - **Redundant Nodes**: Takes up space without significant search efficiency.
 
@@ -394,7 +394,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 - **Reduced Space Complexity**: More space-efficient due to node compression.
 - **Faster Lookups**: Maintains efficient `O(m)` search time with less memory.
 
-**Drawbacks**:
+**Drawbacks of Radix Tree**:
 - **Complex Implementation**: More complex to implement and maintain.
 
 **Final Optimized Approach: Pruned Radix Tree**
