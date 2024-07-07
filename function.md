@@ -54,11 +54,8 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
 
 - **Segment Trees:** Allow efficient handling of range queries and updates.
   
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/segment.jpg" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 - **Fenwick Trees:** Efficiently manage cumulative frequency tables, allowing for quick updates and prefix sum queries.
   
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/fenwick.jpg" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
-
 **Implementation:**
 
 1. **Segment Tree Construction:** Build a segment tree from the like/dislike counts array.
@@ -107,28 +104,15 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
      - [Min-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/minheap.cpp)
 
 
-
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/>
-
-
-
-
   2. **Max-Heap for Live Streaming:** Prioritizes high-priority packets (e.g., keyframes) to maintain stream integrity.
      - [Max-Heap Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/maxheap.cpp)
 
-
-
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 - **Advantages:**
   - **Efficiency:** Minimizes latency by prioritizing packets based on importance.
   - **Scalability:** Handles varying loads effectively, suitable for large-scale streaming.
 
 **Sliding Window**
-
-
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/slidingWin.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 40px;"/> 
-
 
 - **Implementation:**
   - **Fixed-Size Window:** Maintains a buffer of a predefined number of packets, adjustable based on real-time conditions.
@@ -223,10 +207,6 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 
 #### Optimized Approaches: LRU Cache
 
-
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/lru.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
-
-
 **Implementation:**
 
 - **LRU Cache (Least Recently Used):** Efficiently manages a fixed-size cache by tracking usage order. It removes the least recently used item when the cache reaches its limit.
@@ -302,10 +282,6 @@ Using a stack to manage the history of recently played songs in music streaming 
 
 - **A* Algorithm:** Enhances Dijkstra's algorithm by using heuristics to guide the search towards the goal, improving efficiency for content delivery optimization.
 - [A* Star Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/astar.cpp)
-
-
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/A*.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
-
 
 **Data Structures Used:**
 
@@ -434,10 +410,6 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 - **Maximum Efficiency**: Combines compression and selective storage for optimal space and time complexity.
 - **Scalable**: Handles larger datasets more efficiently.
 
-
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/radixtrie.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
-
-
 **Complexity Analysis**
 
 **Trie Data Structure**:
@@ -483,9 +455,6 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Functionality**:
 - **Skip Lists**: A probabilistic data structure that allows fast search, insertion, and deletion operations. It consists of multiple layers of linked lists, where each higher layer acts as an "express lane" for nodes in the layer below.
 
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/skiplist.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
-
-
 **Implementation**:
 - **Index Structure**: Nodes are arranged in multiple levels, with each level having a subset of the nodes from the level below.
 - **Search and Retrieval**: Skip lists allow `O(log n)` average time complexity for search operations by skipping over large portions of the list.
@@ -503,9 +472,6 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 
 **Functionality**:
 - **B-Trees**: A balanced tree data structure designed for efficiently reading and writing large blocks of data. B-Trees are optimized for systems that read and write large blocks of data, making them suitable for databases stored on disk.
-
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/btree.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
-
 
 **Implementation**:
 - **Index Structure**: Consists of nodes with multiple keys and children. Each node can have up to a fixed number of children (defined by the order of the B-tree).
@@ -541,8 +507,6 @@ Efficient content indexing is essential for quick and reliable access to music f
 The Fisher-Yates Shuffle, also known as the Knuth Shuffle, is an algorithm for generating a random permutation of a finite sequence—in plain terms, it's a way to shuffle a list or an array effectively.
 
 - **[Shuffling Code](https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/)**
-
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/shuffle.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 
 **Deep Analysis of Fisher-Yates Shuffle Algorithm**:
