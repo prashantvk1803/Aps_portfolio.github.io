@@ -1,5 +1,5 @@
 # Dance Only to Your Tunes !
-  - Music Streaming Application
+  ### - Music Streaming Application
 
 ![Header Image](appleM.jpg)
 
