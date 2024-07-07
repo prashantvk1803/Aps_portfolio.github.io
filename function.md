@@ -54,10 +54,10 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
 
 - **Segment Trees:** Allow efficient handling of range queries and updates.
   
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/segment.jpg" style="float: left; width: 500px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
+  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/segment.jpg" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 - **Fenwick Trees:** Efficiently manage cumulative frequency tables, allowing for quick updates and prefix sum queries.
   
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/fenwick.jpg" style="float: left; width: 500px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
+  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/fenwick.jpg" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 **Implementation:**
 
@@ -108,7 +108,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 
 
 
-   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 500px; height: 500px; margin-right: 10px; margin-left: 20px;"/>
+   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/>
 
 
 
@@ -118,7 +118,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 
 
 
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 500px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
+  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 - **Advantages:**
   - **Efficiency:** Minimizes latency by prioritizing packets based on importance.
@@ -127,7 +127,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 **Sliding Window**
 
 
-<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/slidingWin.png" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/slidingWin.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 
 - **Implementation:**
@@ -224,7 +224,7 @@ Transitioning from simple queue methods to advanced techniques like Heap Design 
 #### Optimized Approaches: LRU Cache
 
 
-<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/lru.png" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/lru.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 
 **Implementation:**
@@ -304,7 +304,7 @@ Using a stack to manage the history of recently played songs in music streaming 
 - [A* Star Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/astar.cpp)
 
 
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/A*.png" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/A*.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 
 **Data Structures Used:**
@@ -435,7 +435,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 - **Scalable**: Handles larger datasets more efficiently.
 
 
-<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/radixtrie.png" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/radixtrie.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;""/> 
 
 
 **Complexity Analysis**
@@ -483,7 +483,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Functionality**:
 - **Skip Lists**: A probabilistic data structure that allows fast search, insertion, and deletion operations. It consists of multiple layers of linked lists, where each higher layer acts as an "express lane" for nodes in the layer below.
 
-<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/skiplist.png" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/skiplist.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 
 **Implementation**:
@@ -504,7 +504,7 @@ Effective ad insertion in streaming applications requires advanced algorithms an
 **Functionality**:
 - **B-Trees**: A balanced tree data structure designed for efficiently reading and writing large blocks of data. B-Trees are optimized for systems that read and write large blocks of data, making them suitable for databases stored on disk.
 
-<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/btree.png" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/btree.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 
 **Implementation**:
@@ -542,7 +542,7 @@ The Fisher-Yates Shuffle, also known as the Knuth Shuffle, is an algorithm for g
 
 - **[Shuffling Code](https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/)**
 
-<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/shuffle.png" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/shuffle.png" style="float: left; width: 550px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 
 **Deep Analysis of Fisher-Yates Shuffle Algorithm**:
