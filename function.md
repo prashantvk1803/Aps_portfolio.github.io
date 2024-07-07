@@ -108,7 +108,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 
 
 
-   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/>
+   <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 500px; height: 500px; margin-right: 10px; margin-left: 20px;"/>
 
 
 
@@ -118,7 +118,7 @@ Both Segment Trees and Fenwick Trees significantly enhance the efficiency of the
 
 
 
-  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 100px; height: 150px; margin-right: 10px;"/> 
+  <img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/MinHeap.jpg" style="float: left; width: 500px; height: 500px; margin-right: 10px; margin-left: 20px;"/> 
 
 - **Advantages:**
   - **Efficiency:** Minimizes latency by prioritizing packets based on importance.
