@@ -80,5 +80,6 @@ This page hosts:
 ### 4. Business Model Analysis of Top Platforms
 
 #### Spotify
+![Spotify Business Model](spotify.png)
 
 
