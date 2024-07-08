@@ -47,6 +47,7 @@
 ### 1. Spotify
 
 <img src="spotify.png"/> 
+<br>
 Spotify's business model exemplifies the "freemium" strategy, blending free and premium services. Their revenue sources and expenses, depicted by green and red arrows respectively in their chart, showcase a balanced approach. The platform offers basic features for free with ads, while premium subscribers enjoy ad-free listening, offline access, and higher audio quality. This model effectively builds a large user base without heavy investment in advertising.
 The crucial relationship between Spotify and its customers forms the foundation of their business model, catering to a wide range of listeners from casual to audiophiles. Industry data suggests freemium applications generate significant revenue in app stores, making it a robust model for the digital age and allowing Spotify to maintain steady revenue while fostering potential growth.
 
@@ -54,6 +55,7 @@ The crucial relationship between Spotify and its customers forms the foundation 
 
 <img src="app1.png"/>
 <img src="app2.png"/>
+<br>
 The sources of revenue for the company come no more from 3rd parties but they are all fruit of the paid subscriptions of Apple Music users. The company management refused to adopt a freemium strategy as a sign of respect for the work of the artists, which considers to be undervalued if given for free to users. "Freemium companies are building an audience on the back of the artist" said Apple Music CEO in a speech to the audience at a Vanity Fair event in San Francisco (Statt, The Verge, 2015).
 
 ## 5. High Level Design
