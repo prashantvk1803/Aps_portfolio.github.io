@@ -571,7 +571,7 @@ The shuffling of music is a vital feature for enhancing user experience by provi
 
 **Implementation**:
 - Quick Sort is a widely used sorting algorithm that works by selecting a 'pivot' element and partitioning the array into two sub-arrays, which are then sorted recursively.
-- [Quick Sort Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/quicksort.cpp)
+- [Quick Sort Code](https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/codes/quicksort.c)
 
 **Complexity Analysis**:
 - **Time Complexity**:
