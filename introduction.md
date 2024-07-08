@@ -58,7 +58,7 @@ The sources of revenue for the company come no more from 3rd parties but they ar
 
 ## 5. High Level Design
 
-<img src="system.png"/> 
+<img src="https://github.com/prashantvk1803/Aps_portfolio.github.io/blob/main/images/system.png"/> 
 
 #### Components
 
