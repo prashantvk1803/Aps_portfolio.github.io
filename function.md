@@ -386,7 +386,7 @@ Ad insertion in streaming apps involves advanced algorithms and data structures 
 
 ### 7.Search Algorithms and Autocomplete
 
-#### Earlier Approach: Trie Data Structure
+#### Initial Approach: Trie Data Structure
 **Implementation**:
 - **Trie Structure**: A trie (prefix tree) is used to store and retrieve keys in a dataset of strings, where each node represents a character.
 - **Efficient Indexing**: Allows for fast prefix-based lookups.
@@ -438,7 +438,8 @@ Ad insertion in streaming apps involves advanced algorithms and data structures 
 <br>
 
 ### 8. **Content Indexing and Retrieval from Memory**:
-#### Earlier Approach: Inverted Indexing
+
+#### Initial Approach: Inverted Indexing
 
 **Functionality**:
 - **Inverted Indexing**: This approach creates an index that maps content (like words or keywords) to their locations in the database. For music files, this could involve mapping metadata such as song titles, artists, and albums to the respective file locations.
@@ -566,7 +567,7 @@ The shuffling of music is a vital feature for enhancing user experience by provi
 
 ### 10. **Sorting Algorithms for Music Data**
 
-#### Earlier Approach: Quick Sort
+#### Initial Approach: Quick Sort
 
 **Implementation**:
 - Quick Sort is a widely used sorting algorithm that works by selecting a 'pivot' element and partitioning the array into two sub-arrays, which are then sorted recursively.
