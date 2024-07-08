@@ -79,7 +79,7 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
   - `O(4N)` for storing the segment tree.
   - `O(N)` for storing the Fenwick tree.
 
-Both Segment Trees and Fenwick Trees greatly improve the like/dislike system in a music streaming software. These data structures lower the time complexity of update and query operations from `O(N)` to `O(log N)` resulting in a more scalable and responsive solution than arrays. This assures improved performance and a better user experience, particularly with a big number of songs.
+Both Segment Trees and Fenwick Trees greatly improve the like/dislike system in a music streaming software. These data structures lower the time complexity of update and query operations from `O(N)` to `O(log N)` resulting in a more scalable and responsive solution than arrays. 
 
 <br>
 
@@ -149,7 +149,7 @@ Both Segment Trees and Fenwick Trees greatly improve the like/dislike system in 
   - Getting Packet: `O(1)`
 - **Space Complexity:** `O(W)`, where `W` is the window size.
 
-Transitioning from simple queue methods to advanced strategies such as Heap Design and Sliding Window improves the performance and user experience of music streaming systems. These optimised methodologies provide efficient packet management, prioritised processing of vital data, and adaptive buffering solutions, which result in smoother playback, lower latency, and higher overall service quality. This optimisation is critical for managing the difficulties of large-scale streaming scenarios while also matching the high expectations of modern streaming users.
+Transitioning from simple queue methods to advanced strategies such as Heap Design and Sliding Window improves the performance and user experience of music streaming systems. These optimised methodologies provide efficient packet management, prioritised processing of vital data, and adaptive buffering solutions, which result in smoother playback, lower latency, and higher overall service quality. 
 
 <br>
 
@@ -253,7 +253,7 @@ Transitioning from simple queue methods to advanced strategies such as Heap Desi
   - Removing Any Song: `O(1)`
 - **Space Complexity:** `O(n)`
 
-Using a stack to manage the history of recently played songs in music streaming applications is inefficient due to its linear time complexity for removing arbitrary songs. In contrast, an LRU cache, employing a hash map and doubly linked list, ensures constant time complexity for access, update, and removal operations. This optimization allows quick access to recent tracks while efficiently managing cache size, significantly enhancing user experience in applications like Apple Music.
+Using a stack to manage the history of recently played songs in music streaming applications is inefficient due to its linear time complexity for removing arbitrary songs. In contrast, an LRU cache, employing a hash map and doubly linked list, ensures constant time complexity for access, update, and removal operations.
 
 <br>
 
@@ -380,7 +380,7 @@ Efficient content delivery in music streaming is dependent on robust algorithms.
   - Remove Operation: `O(log n)`
 - **Space Complexity**: `O(n)`, where n is the number of ads in the priority queue.
 
-Ad insertion in streaming apps involves advanced algorithms and data structures that dynamically match advertising to user choices and the streaming context. As user and ad campaign complexity increased, simple queues became less personalizable and efficient. Using hash tables for efficient data storage and priority queues for real-time decision making, streaming systems can optimise ad insertion based on user data and content relevancy. These approaches increase user engagement, maximise ad income prospects, and offer scalable solutions that adapt to changing user demands and ad campaign priorities, resulting in a smooth and personalised streaming experience.
+Ad insertion in streaming apps involves advanced algorithms and data structures that dynamically match advertising to user choices and the streaming context. As user and ad campaign complexity increased, simple queues became less personalizable and efficient. Using hash tables for efficient data storage and priority queues for real-time decision making, streaming systems can optimise ad insertion based on user data and content relevancy. 
 
 <br>
 
@@ -510,7 +510,7 @@ Ad insertion in streaming apps involves advanced algorithms and data structures 
 - **Balanced Structure**: Ensures that operations remain efficient even as the dataset grows.
 - **Supports Complex Queries**: Efficiently handles range queries and other complex queries, which inverted indexes struggle with.
 
-Efficient content indexing is required for fast and dependable access to music files in streaming apps. While inverted indexing works well for text-based searches, it is memory-intensive and inefficient for dynamic updates and sophisticated queries. Skip lists for in-memory indexing allow programmes to do faster search, insertion, and delete operations. B-Trees are ideal for large databases kept on secondary storage because they allow for efficient disc access and extensive query support. These optimised methodologies significantly increase performance and scalability, resulting in a better user experience in music streaming applications.
+Efficient content indexing is required for fast and dependable access to music files in streaming apps. While inverted indexing works well for text-based searches, it is memory-intensive and inefficient for dynamic updates and sophisticated queries. Skip lists for in-memory indexing allow programmes to do faster search, insertion, and delete operations. B-Trees are ideal for large databases kept on secondary storage because they allow for efficient disc access and extensive query support. 
 
 <br>
 
