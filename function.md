@@ -32,6 +32,7 @@ The shuffling feature in music streaming applications is essential for providing
 #### 10. **Sorting Songs Alphabetically**:
 In a music streaming application, users often want to sort their songs alphabetically by title, artist, or album. Efficient sorting algorithms ensure that users experience fast and responsive interactions, especially with large playlists.
 
+<br>
 
 ## Analysis and Code
 
@@ -80,6 +81,7 @@ While updating counts is efficient, querying the highest or lowest like/dislike 
 
 Both Segment Trees and Fenwick Trees greatly improve the like/dislike system in a music streaming software. These data structures lower the time complexity of update and query operations from `O(N)` to `O(log N)` resulting in a more scalable and responsive solution than arrays. This assures improved performance and a better user experience, particularly with a big number of songs.
 
+<br>
 
 
 ### 2. **Music Playback and Live Radio Streaming**
@@ -149,6 +151,8 @@ Both Segment Trees and Fenwick Trees greatly improve the like/dislike system in 
 
 Transitioning from simple queue methods to advanced strategies such as Heap Design and Sliding Window improves the performance and user experience of music streaming systems. These optimised methodologies provide efficient packet management, prioritised processing of vital data, and adaptive buffering solutions, which result in smoother playback, lower latency, and higher overall service quality. This optimisation is critical for managing the difficulties of large-scale streaming scenarios while also matching the high expectations of modern streaming users.
 
+<br>
+
 ### 3. **Playlist Management**
 
 #### Initial Approach: Heaps
@@ -191,6 +195,8 @@ Transitioning from simple queue methods to advanced strategies such as Heap Desi
   - Deletion: `O(log n)`
   - Search: `O(log n)`
 - **Space Complexity:** `O(n)`
+
+<br>
 
 ### 4. **History of Songs**
 
@@ -248,6 +254,8 @@ Transitioning from simple queue methods to advanced strategies such as Heap Desi
 - **Space Complexity:** `O(n)`
 
 Using a stack to manage the history of recently played songs in music streaming applications is inefficient due to its linear time complexity for removing arbitrary songs. In contrast, an LRU cache, employing a hash map and doubly linked list, ensures constant time complexity for access, update, and removal operations. This optimization allows quick access to recent tracks while efficiently managing cache size, significantly enhancing user experience in applications like Apple Music.
+
+<br>
 
 ### 5. **Content Delivery Optimization**
 
@@ -317,6 +325,8 @@ Using a stack to manage the history of recently played songs in music streaming 
 
 Efficient content delivery in music streaming is dependent on robust algorithms. While Dijkstra's method is fundamental, its limitations in heuristic guiding and single-source focus render it unsuitable for large-scale scenarios. The A* method, which uses heuristics for effective routing, improves both performance and flexibility. 
 
+<br>
+
 ### 6. Ad Insertion during Streaming
 
 #### Initial Approach: Simple Queues
@@ -372,7 +382,9 @@ Efficient content delivery in music streaming is dependent on robust algorithms.
 
 Ad insertion in streaming apps involves advanced algorithms and data structures that dynamically match advertising to user choices and the streaming context. As user and ad campaign complexity increased, simple queues became less personalizable and efficient. Using hash tables for efficient data storage and priority queues for real-time decision making, streaming systems can optimise ad insertion based on user data and content relevancy. These approaches increase user engagement, maximise ad income prospects, and offer scalable solutions that adapt to changing user demands and ad campaign priorities, resulting in a smooth and personalised streaming experience.
 
-### Search Algorithms and Autocomplete
+<br>
+
+### 7.Search Algorithms and Autocomplete
 
 #### Earlier Approach: Trie Data Structure
 **Implementation**:
@@ -423,6 +435,7 @@ Ad insertion in streaming apps involves advanced algorithms and data structures 
 - **Time Complexity**: `O(m)` for search operations, where `m` is the length of the query string. The optimization primarily affects space, not time complexity.
 - **Space Complexity**: `O(n)`, where `n` is the number of keys. This is optimized further by pruning unnecessary nodes, making it more space-efficient than a standard radix tree.
 
+<br>
 
 ### 8. **Content Indexing and Retrieval from Memory**:
 #### Earlier Approach: Inverted Indexing
@@ -499,6 +512,8 @@ Ad insertion in streaming apps involves advanced algorithms and data structures 
 
 Efficient content indexing is required for fast and dependable access to music files in streaming apps. While inverted indexing works well for text-based searches, it is memory-intensive and inefficient for dynamic updates and sophisticated queries. Skip lists for in-memory indexing allow programmes to do faster search, insertion, and delete operations. B-Trees are ideal for large databases kept on secondary storage because they allow for efficient disc access and extensive query support. These optimised methodologies significantly increase performance and scalability, resulting in a better user experience in music streaming applications.
 
+<br>
+
 ### 9. **Shuffling of Songs**
 
 **Fisher-Yates Shuffle Algorithm**:
@@ -546,6 +561,8 @@ The Fisher-Yates Shuffle, also known as the Knuth Shuffle, is an algorithm for g
   - `O(1)`: The algorithm uses constant extra space since it shuffles the array in place without requiring additional storage proportional to the input size.
 
 The shuffling of music is a vital feature for enhancing user experience by providing a randomized playlist. The Fisher-Yates Shuffle algorithm is a highly efficient and effective method for achieving this.
+
+<br>
 
 ### 10. **Sorting Algorithms for Music Data**
 
