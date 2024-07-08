@@ -34,7 +34,7 @@ In a music streaming application, users often want to sort their songs alphabeti
 
 <br>
 
-## Analysis and Code
+## Analysis and Code:
 
 ### 1. **Most liked/disliked song**:
 #### Initial Approach: Using Arrays
