@@ -62,7 +62,7 @@ The sources of revenue for the company come no more from 3rd parties but they ar
 
 <img src="system.png"/> 
 
-### Components
+### Components 
 
 #### 1. SpotifyWebServer
 - **Description**: Acts as a Backend-for-Frontend (BFF) that performs authorization, rate limiting, and other validations.
