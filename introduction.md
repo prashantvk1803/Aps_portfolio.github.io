@@ -56,3 +56,65 @@ The crucial relationship between Spotify and its customers forms the foundation 
 <img src="app2.png"/>
 The sources of revenue for the company come no more from 3rd parties but they are all fruit of the paid subscriptions of Apple Music users. The company management refused to adopt a freemium strategy as a sign of respect for the work of the artists, which considers to be undervalued if given for free to users. "Freemium companies are building an audience on the back of the artist" said Apple Music CEO in a speech to the audience at a Vanity Fair event in San Francisco (Statt, The Verge, 2015).
 
+## 5. High Level Design
+
+<img src="system.png"/> 
+
+#### Components
+
+##### SpotifyWebServer
+- **Description**: Acts as a Backend-for-Frontend (BFF) that performs authorization, rate limiting, and other validations.
+- **Responsibilities**:
+  - User authentication and authorization
+  - Rate limiting
+  - Request validation
+
+##### LoadBalancer
+- **Description**: Distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed.
+- **Responsibilities**:
+  - Distribute incoming requests evenly across servers
+  - Improve application reliability and availability
+  - Optimize resource use and reduce latency
+
+##### SongSearchService
+- **Description**: Service used to return the query result for song searches by users.
+- **Responsibilities**:
+  - Process user search queries
+  - Interface with Elasticsearch for fast search results
+
+##### Elasticsearch
+- **Description**: An indexing service used to speed up the search results on song names, artists, lyrics, or other metadata.
+- **Responsibilities**:
+  - Create an index of all searchable content
+  - Enable quick retrieval of search results
+
+##### SongMetadataService
+- **Description**: Service that provides APIs for getting data from the MetadataDB.
+- **Responsibilities**:
+  - Fetch song metadata
+  - Interface with MetadataDB
+
+##### MetadataDB
+- **Description**: System of record for the songs metadata.
+- **Responsibilities**:
+  - Store and manage song metadata
+  - Provide reliable and consistent access to metadata
+
+##### SongStreamingService
+- **Description**: Service used to get the song audio file for streaming.
+- **Responsibilities**:
+  - Fetch audio files for streaming
+  - Interface with ObjectStore and CDN
+
+##### ObjectStore
+- **Description**: System of record for the audio files.
+- **Responsibilities**:
+  - Store audio files
+  - Ensure high availability and durability of audio files
+
+##### CDN (Content Delivery Network)
+- **Description**: Caches songs for better latency.
+- **Responsibilities**:
+  - Cache audio files for quick access
+  - Reduce latency by serving cached content to users
+
