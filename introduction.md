@@ -62,59 +62,59 @@ The sources of revenue for the company come no more from 3rd parties but they ar
 
 <img src="system.png"/> 
 
-#### Components
+### Components
 
-##### 1. SpotifyWebServer
+#### 1. SpotifyWebServer
 - **Description**: Acts as a Backend-for-Frontend (BFF) that performs authorization, rate limiting, and other validations.
 - **Responsibilities**:
   - User authentication and authorization
   - Rate limiting
   - Request validation
 
-##### 2. LoadBalancer
+#### 2. LoadBalancer
 - **Description**: Distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed.
 - **Responsibilities**:
   - Distribute incoming requests evenly across servers
   - Improve application reliability and availability
   - Optimize resource use and reduce latency
 
-##### 3. SongSearchService
+#### 3. SongSearchService
 - **Description**: Service used to return the query result for song searches by users.
 - **Responsibilities**:
   - Process user search queries
   - Interface with Elasticsearch for fast search results
 
-##### 4. Elasticsearch
+#### 4. Elasticsearch
 - **Description**: An indexing service used to speed up the search results on song names, artists, lyrics, or other metadata.
 - **Responsibilities**:
   - Create an index of all searchable content
   - Enable quick retrieval of search results
 
-##### 5. SongMetadataService
+#### 5. SongMetadataService
 - **Description**: Service that provides APIs for getting data from the MetadataDB.
 - **Responsibilities**:
   - Fetch song metadata
   - Interface with MetadataDB
 
-##### 6. MetadataDB
+#### 6. MetadataDB
 - **Description**: System of record for the songs metadata.
 - **Responsibilities**:
   - Store and manage song metadata
   - Provide reliable and consistent access to metadata
 
-##### 7. SongStreamingService
+#### 7. SongStreamingService
 - **Description**: Service used to get the song audio file for streaming.
 - **Responsibilities**:
   - Fetch audio files for streaming
   - Interface with ObjectStore and CDN
 
-##### 8. ObjectStore
+#### 8. ObjectStore
 - **Description**: System of record for the audio files.
 - **Responsibilities**:
   - Store audio files
   - Ensure high availability and durability of audio files
 
-##### 9. CDN (Content Delivery Network)
+#### 9. CDN (Content Delivery Network)
 - **Description**: Caches songs for better latency.
 - **Responsibilities**:
   - Cache audio files for quick access
